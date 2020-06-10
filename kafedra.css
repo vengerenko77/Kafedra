@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-size: 0px;
+}
+.wrapper img{ 
+    width:200px;
+    border: 3px solid transparent;
+}
+.wrapper img:hover{
+    border: 3px solid rgb(134, 57, 76)  
+}
+.wrapper{
+    width:300px;
+    margin: 0 auto;
+    text-align: center;
+}
+.d{
+    font-size: 18px;
+    font-family: cursive;
+}
+@media (min-width: 768px) {
+    .wrapper {
+        background: rgb(107, 70, 69);
+        width:760px;
+    }
+    .d{
+        width: 300px;
+        display: inline-block;
+    }
+}
+@media (min-width: 1200px) {
+    .wrapper {
+        background: rgb(236, 199, 199);
+        width:1200px;
+    }
+    .d{
+        width: 300px;
+        display: inline-block;
+    }
+}
+
+.prof.f1::after{
+    content: 'зав.каф., професор, д.е.н.';
+    display: block;
+}
+.prof.f2::after{
+    content: 'професор, д.ф.-м.н.';
+    display: block;
+}
+.prof.f3::after{
+    content: 'професор, д.е.н.';
+    display: block;
+}
+.prof.f4::after{
+    content: 'професор, д.е.н.';
+    display: block;
+}
+.prof.f5::after{
+    content: 'професор, д.е.н.';
+    display: block;
+}
+.prof.f6::after{
+    content: 'доцент, к.е.н.';
+    display: block;
+}
+.prof.f7::after{
+    content: 'доцент, к.т.н.';
+    display: block;
+}
+.prof.f8::after{
+    content: 'доцент, к.е.н.';
+    display: block;
+}
+.prof.f9::after{
+    content: 'доцент, к.е.н.';
+    display: block;
+}
+.prof.f10::after{
+    content: 'доцент, к.ф.-м.н.';
+    display: block;
+}
+.prof.f11::after{
+    content: 'доцент, к.ф.-м.н.';
+    display: block;
+}
+.prof.f12::after{
+    content: 'ст. викладач';
+    display: block;
+}
+.prof.f13::after{
+    content: 'ст. викладач';
+    display: block;
+}
+.prof.f14::after{
+    content: 'ст. викладач';
+    display: block;
+}
+.prof.f15::after{
+    content: 'ст. викладач';
+    display: block;
+}
+.prof.f16::after{
+    content: 'викладач';
+    display: block;
+}
+.prof.f17::after{
+    content: 'викладач';
+    display: block;
+}
+.prof.f18::after{
+    content: 'викладач';
+    display: block;
+}
+.prof.f19::after{
+    content: 'аспірант';
+    display: block;
+}
+.prof.f20::after{
+    content: 'викладач, аспірант';
+    display: block;
+}
